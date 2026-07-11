@@ -1,1 +1,0 @@
-# geonest-studio
