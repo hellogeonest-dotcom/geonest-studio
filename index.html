@@ -4,39 +4,72 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GeoNest Studio</title>
+
 <style>
+*{margin:0;padding:0;box-sizing:border-box;}
 body{
-margin:0;
 font-family:Arial,sans-serif;
-background:#f4f4f4;
+background:#f5f5f5;
 color:#333;
 }
+
 header{
-background:#1f2937;
+background:#1e293b;
 color:white;
 padding:60px 20px;
 text-align:center;
 }
-section{
-padding:40px 20px;
-max-width:900px;
-margin:auto;
+
+header h1{
+font-size:48px;
 }
+
+header p{
+margin-top:15px;
+font-size:20px;
+}
+
 .btn{
 display:inline-block;
-padding:12px 24px;
-background:#d4af37;
-color:black;
+margin-top:25px;
+padding:14px 30px;
+background:#f59e0b;
+color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:8px;
 font-weight:bold;
 }
-footer{
-background:#111;
-color:white;
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
 text-align:center;
-padding:20px;
-margin-top:40px;
+margin-bottom:30px;
+font-size:34px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+footer{
+background:#111827;
+color:white;
+padding:30px;
+text-align:center;
 }
 </style>
 </head>
@@ -45,23 +78,59 @@ margin-top:40px;
 
 <header>
 <h1>GeoNest Studio</h1>
-<p>Premium Interior Design & Civil Contracting</p>
-<a class="btn" href="mailto:hellogeonest@gmail.com">Contact Us</a>
+<p>Interior Design • Civil Contracting • Turnkey Solutions</p>
+
+<a class="btn" href="https://wa.me/91XXXXXXXXXX">Contact Us</a>
 </header>
 
 <section>
+
 <h2>Our Services</h2>
-<ul>
-<li>Interior Design</li>
-<li>Civil Contracting</li>
-<li>Turnkey Projects</li>
-<li>Renovation</li>
-<li>3D Design</li>
-</ul>
+
+<div class="services">
+
+<div class="card">
+<h3>Interior Design</h3>
+<p>Residential & Commercial Interiors.</p>
+</div>
+
+<div class="card">
+<h3>Civil Contracting</h3>
+<p>Construction, Renovation & Structural Works.</p>
+</div>
+
+<div class="card">
+<h3>Turnkey Projects</h3>
+<p>Complete Design to Execution.</p>
+</div>
+
+<div class="card">
+<h3>Project Management</h3>
+<p>Planning, Supervision & Quality Control.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Why Choose Us?</h2>
+
+<p style="text-align:center;font-size:18px;">
+Quality Work • Modern Design • On-Time Delivery • Transparent Pricing
+</p>
+
 </section>
 
 <footer>
-© 2026 GeoNest Studio. All Rights Reserved.
+
+<h3>GeoNest Studio</h3>
+
+<p>Email: hello.geonest@gmail.com</p>
+
+<p>© 2026 GeoNest Studio. All Rights Reserved.</p>
+
 </footer>
 
 </body>
