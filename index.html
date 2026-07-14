@@ -65,9 +65,20 @@ padding:80px 20px;
 }
 
 .hero-overlay{
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
 max-width:900px;
 width:100%;
 margin:auto;
+animation:fadeUp 1s ease;
 }
 .tagline{
 font-size:26px;
@@ -82,8 +93,11 @@ line-height:1.1;
 }
 
 header p{
-font-size:20px;
-margin-top:20px;
+font-size:22px;
+line-height:1.7;
+max-width:850px;
+margin:20px auto 0;
+color:rgba(255,255,255,.92);
 }
 
 .btn{
