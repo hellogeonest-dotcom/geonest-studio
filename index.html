@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,26 +8,37 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>GeoNest Studio | Premium Interior Design & Civil Contracting</title>
 
-<meta name="description" content="GeoNest Studio offers premium interior design, civil contracting and turnkey solutions for residential and commercial projects.">
+<title>
+GeoNest Studio | Luxury Interior Design & Turnkey Solutions
+</title>
+
+
+<meta name="description" content="GeoNest Studio creates luxury residential and commercial interiors with premium design, civil contracting and turnkey execution.">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
 <style>
+
 
 *{
 
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Poppins',sans-serif;
+
+}
+
+
+html{
+
 scroll-behavior:smooth;
 
 }
@@ -34,9 +46,17 @@ scroll-behavior:smooth;
 
 body{
 
-background:#faf9f6;
-color:#222;
+font-family:'Poppins',sans-serif;
+background:#faf8f4;
+color:#1c1c1c;
 overflow-x:hidden;
+
+}
+
+
+h1,h2,h3{
+
+font-family:'Cormorant Garamond',serif;
 
 }
 
@@ -50,7 +70,7 @@ text-decoration:none;
 
 .container{
 
-max-width:1250px;
+max-width:1300px;
 margin:auto;
 
 }
@@ -58,30 +78,7 @@ margin:auto;
 
 section{
 
-padding:100px 8%;
-
-}
-
-
-
-/* TOP BAR */
-
-
-.topbar{
-
-background:#111827;
-color:white;
-text-align:center;
-padding:10px;
-font-size:14px;
-
-}
-
-
-.topbar span{
-
-color:#c58b3a;
-font-weight:600;
+padding:110px 8%;
 
 }
 
@@ -92,32 +89,34 @@ font-weight:600;
 
 nav{
 
-position:sticky;
+position:fixed;
 top:0;
+left:0;
 width:100%;
-padding:22px 8%;
-background:white;
+padding:28px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
+background:rgba(250,248,244,.92);
+backdrop-filter:blur(15px);
 z-index:999;
-box-shadow:0 5px 25px rgba(0,0,0,.08);
 
 }
 
 
 .logo{
 
-font-size:32px;
-font-weight:800;
-color:#111827;
+font-size:38px;
+font-weight:700;
+letter-spacing:1px;
+color:#171717;
 
 }
 
 
 .logo span{
 
-color:#c58b3a;
+color:#b88a44;
 
 }
 
@@ -125,25 +124,26 @@ color:#c58b3a;
 .menu{
 
 display:flex;
-gap:35px;
+gap:40px;
 
 }
 
 
 .menu a{
 
+font-size:15px;
 color:#222;
 font-weight:500;
+letter-spacing:.5px;
 
 }
 
 
 .menu a:hover{
 
-color:#c58b3a;
+color:#b88a44;
 
 }
-
 
 
 
@@ -152,16 +152,16 @@ color:#c58b3a;
 
 .hero{
 
-min-height:90vh;
+height:100vh;
 
 background:
 
 linear-gradient(
-rgba(17,24,39,.65),
-rgba(17,24,39,.65)
+rgba(0,0,0,.45),
+rgba(0,0,0,.45)
 ),
 
-url("https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1800");
+url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=2000");
 
 
 background-size:cover;
@@ -176,86 +176,94 @@ justify-content:center;
 
 text-align:center;
 
+
 }
 
 
 .hero-content{
 
-max-width:950px;
+max-width:1000px;
+color:white;
 
 }
 
 
 .hero h1{
 
-font-size:72px;
-line-height:1.1;
-font-weight:800;
-color:white;
+font-size:90px;
+line-height:1.05;
+font-weight:600;
 
 }
 
 
 .hero p{
 
-margin-top:25px;
 font-size:22px;
-color:#eee;
-line-height:1.7;
+line-height:1.8;
+margin-top:30px;
+font-weight:300;
 
 }
 
 
-.buttons{
+.hero-buttons{
 
-margin-top:40px;
+margin-top:45px;
 display:flex;
 justify-content:center;
-gap:20px;
-flex-wrap:wrap;
+gap:25px;
 
 }
+
 
 
 .btn{
 
-padding:17px 40px;
+padding:18px 45px;
 border-radius:50px;
+font-size:15px;
 font-weight:600;
-transition:.3s;
+transition:.4s;
 
 }
 
 
-.gold{
 
-background:#c58b3a;
+.gold-btn{
+
+background:#b88a44;
 color:white;
 
 }
 
 
-.gold:hover{
+.gold-btn:hover{
 
-transform:translateY(-5px);
+transform:translateY(-6px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.3);
 
 }
 
 
-.outline{
 
-border:2px solid white;
+.white-btn{
+
+border:1px solid white;
 color:white;
 
 }
 
 
-.outline:hover{
+.white-btn:hover{
 
 background:white;
-color:#111827;
+color:#111;
 
 }
+
+
 
 
 
@@ -271,7 +279,7 @@ display:none;
 
 .hero h1{
 
-font-size:45px;
+font-size:52px;
 
 }
 
@@ -288,17 +296,11 @@ font-size:18px;
 
 </style>
 
+
 </head>
 
 
 <body>
-
-
-<div class="topbar">
-
-Premium Interior Design | Civil Contracting | Turnkey Solutions
-
-</div>
 
 
 
@@ -315,20 +317,37 @@ Geo<span>Nest</span>
 
 <div class="menu">
 
-<a href="#">Home</a>
 
-<a href="#about">About</a>
+<a href="#">
+Home
+</a>
 
-<a href="#services">Services</a>
 
-<a href="#projects">Projects</a>
+<a href="#about">
+About
+</a>
 
-<a href="#contact">Contact</a>
+
+<a href="#services">
+Services
+</a>
+
+
+<a href="#projects">
+Projects
+</a>
+
+
+<a href="#contact">
+Contact
+</a>
+
 
 </div>
 
 
 </nav>
+
 
 
 
@@ -341,29 +360,35 @@ Geo<span>Nest</span>
 <h1>
 
 Luxury Spaces.<br>
-Built With Precision.
+
+Timeless Experiences.
 
 </h1>
 
 
+
 <p>
 
-GeoNest Studio creates premium residential and commercial spaces through innovative design, expert civil execution and complete turnkey solutions.
+GeoNest Studio creates sophisticated interiors,
+civil solutions and turnkey spaces where design,
+craftsmanship and functionality come together.
 
 </p>
 
 
-<div class="buttons">
+
+<div class="hero-buttons">
 
 
-<a href="#contact" class="btn gold">
+<a href="#contact" class="btn gold-btn">
 
-Book Consultation
+Start Your Project
 
 </a>
 
 
-<a href="https://wa.me/918850605925" class="btn outline">
+
+<a href="https://wa.me/918850605925" class="btn white-btn">
 
 WhatsApp
 
@@ -373,1208 +398,8 @@ WhatsApp
 </div>
 
 
-</div>
-
-
-</section>
-<!-- ABOUT SECTION -->
-
-<section id="about">
-
-
-<div class="container">
-
-
-<h2 class="section-title">
-About GeoNest Studio
-</h2>
-
-
-
-<div class="about-layout">
-
-
-
-<div class="about-text">
-
-
-<h3>
-Creating Spaces That Define Lifestyle
-</h3>
-
-
-<p>
-
-At GeoNest Studio, we believe every space has a story.
-Our approach combines creative interior design, strong
-engineering and precise execution to deliver spaces
-that are beautiful, functional and timeless.
-
-</p>
-
-
-<p>
-
-From luxury residences to commercial developments,
-we provide complete solutions from concept planning
-to final handover.
-
-</p>
-
-
-
-</div>
-
-
-
-<div class="vision-box">
-
-
-<h3>
-Our Vision
-</h3>
-
-
-<p>
-
-To create inspiring spaces through innovative design,
-quality construction and customer-focused execution.
-
-</p>
-
-
-<h3>
-Our Mission
-</h3>
-
-
-<p>
-
-Deliver premium projects with transparency,
-craftsmanship and attention to every detail.
-
-</p>
-
-
-</div>
-
-
-
-</div>
-
 
 </div>
 
 
 </section>
-
-
-
-
-
-<!-- STATS SECTION -->
-
-
-<section class="stats-section">
-
-
-<div class="container">
-
-
-<div class="stats-grid">
-
-
-
-<div class="stat-box">
-
-<h2>
-50+
-</h2>
-
-<p>
-Projects Planned
-</p>
-
-</div>
-
-
-
-
-<div class="stat-box">
-
-<h2>
-5+
-</h2>
-
-<p>
-Years Experience
-</p>
-
-</div>
-
-
-
-
-<div class="stat-box">
-
-<h2>
-100%
-</h2>
-
-<p>
-Quality Commitment
-</p>
-
-</div>
-
-
-
-
-<div class="stat-box">
-
-<h2>
-24/7
-</h2>
-
-<p>
-Client Support
-</p>
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<!-- SERVICES SECTION -->
-
-
-<section id="services">
-
-
-<div class="container">
-
-
-<h2 class="section-title">
-Our Expertise
-</h2>
-
-
-
-<div class="expertise-grid">
-
-
-
-<div class="expertise-card">
-
-
-<h3>
-Interior Design
-</h3>
-
-
-<p>
-
-Luxury home interiors, office spaces and customized
-design solutions.
-
-</p>
-
-
-</div>
-
-
-
-
-<div class="expertise-card">
-
-
-<h3>
-Civil Contracting
-</h3>
-
-
-<p>
-
-Professional construction, renovation and finishing
-execution.
-
-</p>
-
-
-</div>
-
-
-
-
-<div class="expertise-card">
-
-
-<h3>
-Turnkey Projects
-</h3>
-
-
-<p>
-
-Complete responsibility from planning to final
-project delivery.
-
-</p>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-<!-- PROJECTS SECTION -->
-
-<section id="projects" class="dark-section">
-
-
-<div class="container">
-
-
-<h2 class="section-title white-title">
-
-Featured Projects
-
-</h2>
-
-
-
-<p class="section-subtitle">
-
-Spaces designed with creativity, precision and premium execution.
-
-</p>
-
-
-
-<div class="project-grid">
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900">
-
-
-<div class="project-info">
-
-
-<span>
-Residential
-</span>
-
-
-<h3>
-Luxury Residence
-</h3>
-
-
-<p>
-
-Modern interiors crafted with elegant finishes and smart space planning.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900">
-
-
-<div class="project-info">
-
-
-<span>
-Interior
-</span>
-
-
-<h3>
-Premium Living Space
-</h3>
-
-
-<p>
-
-A perfect balance of comfort, luxury and functionality.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-
-<div class="project-card">
-
-
-<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900">
-
-
-<div class="project-info">
-
-
-<span>
-Commercial
-</span>
-
-
-<h3>
-Modern Workspace
-</h3>
-
-
-<p>
-
-Professional spaces designed for productivity and brand identity.
-
-</p>
-
-
-</div>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-
-<!-- PROCESS SECTION -->
-
-
-<section>
-
-
-<div class="container">
-
-
-<h2 class="section-title">
-
-Our Working Process
-
-</h2>
-
-
-
-<div class="process-grid">
-
-
-
-<div class="process-step">
-
-<h3>
-01
-</h3>
-
-<h4>
-Consultation
-</h4>
-
-<p>
-
-Understanding requirements, budget and project goals.
-
-</p>
-
-</div>
-
-
-
-
-<div class="process-step">
-
-<h3>
-02
-</h3>
-
-<h4>
-Planning & Design
-</h4>
-
-<p>
-
-Creating concepts, layouts and execution strategy.
-
-</p>
-
-</div>
-
-
-
-
-<div class="process-step">
-
-<h3>
-03
-</h3>
-
-<h4>
-Execution
-</h4>
-
-<p>
-
-Managing construction, interiors and finishing work.
-
-</p>
-
-</div>
-
-
-
-
-<div class="process-step">
-
-<h3>
-04
-</h3>
-
-<h4>
-Handover
-</h4>
-
-<p>
-
-Delivering your dream space with quality assurance.
-
-</p>
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-<!-- TESTIMONIAL SECTION -->
-
-<section class="testimonial-section">
-
-
-<div class="container">
-
-
-<h2 class="section-title">
-
-Client Experience
-
-</h2>
-
-
-
-<div class="testimonial-grid">
-
-
-
-<div class="testimonial-box">
-
-
-<p>
-
-"GeoNest Studio transformed our vision into a beautiful
-and functional space. The execution quality was excellent."
-
-</p>
-
-
-<h4>
-Residential Client
-</h4>
-
-
-</div>
-
-
-
-
-<div class="testimonial-box">
-
-
-<p>
-
-"Professional team with great attention to detail.
-The complete process was smooth and transparent."
-
-</p>
-
-
-<h4>
-Commercial Client
-</h4>
-
-
-</div>
-
-
-
-
-<div class="testimonial-box">
-
-
-<p>
-
-"From planning to finishing, everything was managed
-with quality and commitment."
-
-</p>
-
-
-<h4>
-Project Client
-</h4>
-
-
-</div>
-
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<!-- CONTACT SECTION -->
-
-
-<section id="contact">
-
-
-<div class="container">
-
-
-<div class="contact-banner">
-
-
-<h2>
-
-Let's Build Your Dream Space
-
-</h2>
-
-
-
-<p>
-
-Discuss your residential or commercial project with
-GeoNest Studio experts.
-
-</p>
-
-
-
-<div class="buttons">
-
-
-<a href="https://wa.me/918850605925" class="btn gold">
-
-WhatsApp Now
-
-</a>
-
-
-
-<a href="tel:+918850605925" class="btn dark-btn">
-
-Call Now
-
-</a>
-
-
-
-</div>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<!-- FLOATING BUTTONS -->
-
-
-<a href="https://wa.me/918850605925" class="floating-whatsapp">
-
-WhatsApp
-
-</a>
-
-
-
-<a href="tel:+918850605925" class="floating-call">
-
-Call
-
-</a>
-<style>
-
-/* FINAL V4 DESIGN CSS */
-
-
-.section-title{
-
-text-align:center;
-font-size:42px;
-font-weight:700;
-margin-bottom:20px;
-color:#111827;
-
-}
-
-
-.section-subtitle{
-
-text-align:center;
-color:#ddd;
-margin-bottom:50px;
-
-}
-
-
-/* ABOUT */
-
-
-.about-layout{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:50px;
-align-items:center;
-
-}
-
-
-.about-text h3{
-
-font-size:32px;
-margin-bottom:20px;
-
-}
-
-
-.about-text p{
-
-line-height:1.8;
-color:#555;
-margin-bottom:20px;
-
-}
-
-
-.vision-box{
-
-background:white;
-padding:40px;
-border-radius:25px;
-box-shadow:0 15px 40px rgba(0,0,0,.08);
-
-}
-
-
-.vision-box h3{
-
-margin-bottom:15px;
-
-}
-
-
-.vision-box p{
-
-color:#555;
-line-height:1.7;
-margin-bottom:25px;
-
-}
-
-
-
-/* STATS */
-
-
-.stats-section{
-
-background:#111827;
-
-}
-
-
-.stats-grid{
-
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:25px;
-
-}
-
-
-.stat-box{
-
-text-align:center;
-color:white;
-
-}
-
-
-.stat-box h2{
-
-font-size:45px;
-color:#c58b3a;
-
-}
-
-
-
-/* EXPERTISE */
-
-
-.expertise-grid{
-
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-
-}
-
-
-.expertise-card{
-
-background:white;
-padding:35px;
-border-radius:20px;
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-transition:.3s;
-
-}
-
-
-.expertise-card:hover{
-
-transform:translateY(-8px);
-
-}
-
-
-.expertise-card h3{
-
-font-size:25px;
-margin-bottom:15px;
-
-}
-
-
-.expertise-card p{
-
-color:#555;
-line-height:1.7;
-
-}
-
-
-
-/* PROJECTS */
-
-
-.dark-section{
-
-background:#111827;
-
-}
-
-
-.white-title{
-
-color:white;
-
-}
-
-
-.project-grid{
-
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-
-}
-
-
-.project-card{
-
-background:white;
-border-radius:20px;
-overflow:hidden;
-
-}
-
-
-.project-card img{
-
-height:280px;
-object-fit:cover;
-
-}
-
-
-.project-info{
-
-padding:25px;
-
-}
-
-
-.project-info span{
-
-color:#c58b3a;
-font-weight:600;
-
-}
-
-
-.project-info h3{
-
-font-size:25px;
-margin:10px 0;
-
-}
-
-
-.project-info p{
-
-color:#555;
-
-}
-
-
-
-/* PROCESS */
-
-
-.process-grid{
-
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:25px;
-
-}
-
-
-.process-step{
-
-background:#fff;
-padding:35px 25px;
-border-radius:20px;
-text-align:center;
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-}
-
-
-.process-step h3{
-
-font-size:40px;
-color:#c58b3a;
-
-}
-
-
-
-/* TESTIMONIAL */
-
-
-.testimonial-section{
-
-background:#f3f4f6;
-
-}
-
-
-.testimonial-grid{
-
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:30px;
-
-}
-
-
-.testimonial-box{
-
-background:white;
-padding:35px;
-border-radius:20px;
-box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-}
-
-
-.testimonial-box p{
-
-color:#555;
-line-height:1.8;
-
-}
-
-
-.testimonial-box h4{
-
-margin-top:20px;
-
-}
-
-
-
-/* CONTACT */
-
-
-.contact-banner{
-
-background:#111827;
-color:white;
-text-align:center;
-padding:70px 30px;
-border-radius:30px;
-
-}
-
-
-.contact-banner h2{
-
-font-size:40px;
-margin-bottom:20px;
-
-}
-
-
-.contact-banner p{
-
-margin-bottom:35px;
-color:#ddd;
-
-}
-
-
-.dark-btn{
-
-border:2px solid white;
-color:white;
-padding:16px 40px;
-border-radius:50px;
-
-}
-
-
-.dark-btn:hover{
-
-background:white;
-color:#111827;
-
-}
-
-
-
-/* FLOAT BUTTONS */
-
-
-.floating-whatsapp{
-
-position:fixed;
-right:25px;
-bottom:25px;
-background:#25D366;
-color:white;
-padding:16px 25px;
-border-radius:50px;
-font-weight:600;
-z-index:999;
-
-}
-
-
-.floating-call{
-
-position:fixed;
-right:25px;
-bottom:90px;
-background:#2563eb;
-color:white;
-padding:16px 25px;
-border-radius:50px;
-font-weight:600;
-z-index:999;
-
-}
-
-
-
-/* FOOTER */
-
-
-footer{
-
-background:#0f172a;
-color:white;
-text-align:center;
-padding:50px 20px;
-
-}
-
-
-footer h2{
-
-font-size:36px;
-
-}
-
-
-footer span{
-
-color:#c58b3a;
-
-}
-
-
-footer p{
-
-margin-top:15px;
-color:#ddd;
-
-}
-
-
-
-/* MOBILE */
-
-
-@media(max-width:900px){
-
-
-.about-layout,
-.expertise-grid,
-.project-grid,
-.process-grid,
-.testimonial-grid,
-.stats-grid{
-
-grid-template-columns:1fr;
-
-}
-
-
-.hero h1{
-
-font-size:45px;
-
-}
-
-
-.section-title{
-
-font-size:34px;
-
-}
-
-
-}
-
-
-</style>
-
-
-
-<!-- FOOTER -->
-
-
-<footer>
-
-
-<div class="container">
-
-
-<h2>
-Geo<span>Nest</span> Studio
-</h2>
-
-
-<p>
-Interior Design | Civil Contracting | Turnkey Solutions
-</p>
-
-
-<p>
-© 2026 GeoNest Studio. All Rights Reserved.
-</p>
-
-
-</div>
-
-
-</footer>
-
-
-
-</body>
-
-</html>
