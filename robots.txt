@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hellogeonest-dotcom.github.io/geonest-studio/sitemap.xml
