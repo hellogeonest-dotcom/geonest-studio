@@ -53,6 +53,11 @@
 
   gtag('config', 'G-QPSW0TPG93');
 </script>
+<script>
+if (location.pathname.endsWith('/index.html')) {
+  location.replace(location.origin + '/');
+}
+</script>
 </head>
 <body>
   <header class="nav" id="nav">
