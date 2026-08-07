@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#171510"/><path d="M17 42V22l15-9 15 9v20H37V31H27v11H17Z" fill="#b88a45"/><path d="M23 24 32 19l9 5" fill="none" stroke="#fffdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0F5132"/>
+
+  <circle cx="256" cy="256" r="150"
+          fill="none"
+          stroke="#F5F1E8"
+          stroke-width="18"/>
+
+  <path d="M256 72 L268 118 L256 108 L244 118 Z"
+        fill="#C8A96B"/>
+  <path d="M440 256 L394 268 L404 256 L394 244 Z"
+        fill="#C8A96B"/>
+  <path d="M256 440 L244 394 L256 404 L268 394 Z"
+        fill="#C8A96B"/>
+  <path d="M72 256 L118 244 L108 256 L118 268 Z"
+        fill="#C8A96B"/>
+
+  <text x="256" y="310"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="165"
+        font-weight="500"
+        fill="#F5F1E8"
+        letter-spacing="-18">GN</text>
+</svg>
