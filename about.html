@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,44 +6,115 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#15130f">
 
-  <title>About GeoNest Studio | Interior Design, Civil & Turnkey Solutions</title>
-  <meta name="description" content="Learn about GeoNest Studio's approach to interior design, civil contracting, renovation and turnkey project execution across Mumbai, Navi Mumbai, Thane and nearby regions.">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <title>About GeoNest Studio | Interior Design & Turnkey Solutions Mumbai</title>
+
+  <meta name="description" content="Learn about GeoNest Studio, an interior design, civil contracting, renovation and turnkey solutions studio serving Mumbai, Navi Mumbai, Thane and nearby areas.">
+
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+
   <link rel="canonical" href="https://geoneststudio.com/about.html">
 
-  <meta property="og:title" content="About GeoNest Studio">
-  <meta property="og:description" content="Design thinking and dependable site execution under one accountable team.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About GeoNest Studio | Interior Design & Turnkey Solutions Mumbai">
+  <meta property="og:description" content="Learn about GeoNest Studio's approach to interior design, civil contracting, renovation and turnkey project execution across Mumbai, Navi Mumbai and Thane.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://geoneststudio.com/about.html">
   <meta property="og:image" content="https://geoneststudio.com/social-preview.jpg">
+  <meta property="og:image:alt" content="GeoNest Studio interior design project">
   <meta property="og:site_name" content="GeoNest Studio">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About GeoNest Studio | Interior Design & Turnkey Solutions Mumbai">
+  <meta name="twitter:description" content="Interior design, civil contracting, renovation and turnkey project execution by GeoNest Studio across Mumbai and nearby regions.">
+  <meta name="twitter:image" content="https://geoneststudio.com/social-preview.jpg">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- Structured Data: About Page + Local Business -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"AboutPage",
-    "name":"About GeoNest Studio",
+    "@id":"https://geoneststudio.com/about.html#about",
     "url":"https://geoneststudio.com/about.html",
+    "name":"About GeoNest Studio",
+    "description":"About GeoNest Studio, an interior design, civil contracting, renovation and turnkey solutions studio serving Mumbai, Navi Mumbai, Thane and nearby regions.",
     "isPartOf":{
       "@type":"WebSite",
+      "@id":"https://geoneststudio.com/#website",
       "name":"GeoNest Studio",
       "url":"https://geoneststudio.com/"
     },
-    "about":{
-      "@type":["InteriorDesigner","GeneralContractor"],
+    "mainEntity":{
+      "@type":"LocalBusiness",
+      "@id":"https://geoneststudio.com/#business",
       "name":"GeoNest Studio",
       "url":"https://geoneststudio.com/",
       "telephone":"+91-88506-05925",
       "email":"hello.geonest@gmail.com",
-      "areaServed":["Mumbai","Navi Mumbai","Thane","Panvel","Kalyan","Mira-Bhayandar"],
-      "serviceType":["Interior Design","Civil Contracting","Turnkey Solutions","Renovation"]
+      "description":"Interior design, civil contracting, renovation and turnkey solutions for residential and selected commercial projects.",
+      "areaServed":[
+        {
+          "@type":"City",
+          "name":"Mumbai"
+        },
+        {
+          "@type":"City",
+          "name":"Navi Mumbai"
+        },
+        {
+          "@type":"City",
+          "name":"Thane"
+        },
+        {
+          "@type":"City",
+          "name":"Panvel"
+        },
+        {
+          "@type":"City",
+          "name":"Kalyan"
+        },
+        {
+          "@type":"City",
+          "name":"Mira-Bhayandar"
+        }
+      ],
+      "serviceType":[
+        "Interior Design",
+        "Civil Contracting",
+        "Home Renovation",
+        "Turnkey Interior Solutions"
+      ]
     }
+  }
+  </script>
+
+  <!-- Breadcrumb Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {
+        "@type":"ListItem",
+        "position":1,
+        "name":"Home",
+        "item":"https://geoneststudio.com/"
+      },
+      {
+        "@type":"ListItem",
+        "position":2,
+        "name":"About GeoNest Studio",
+        "item":"https://geoneststudio.com/about.html"
+      }
+    ]
   }
   </script>
 
@@ -76,11 +148,19 @@
     .hero p{max-width:700px;margin-top:28px;color:rgba(255,255,255,.8);font-size:1.08rem;line-height:1.85}
 
     section{padding:105px 0}
+
     .story{display:grid;grid-template-columns:.9fr 1.1fr;gap:8vw;align-items:center}
     .story-image img{height:650px;object-fit:cover}
     .story-copy .eyebrow{margin-bottom:22px}
     .story-copy .title{margin-bottom:28px}
     .story-copy .lead+.lead{margin-top:16px}
+
+    .story-copy a,
+    .principle a,
+    .approach a{
+      color:var(--gold);
+      font-weight:700;
+    }
 
     .principles{background:var(--paper)}
     .section-head{display:grid;grid-template-columns:1fr .8fr;gap:70px;align-items:end;margin-bottom:52px}
@@ -122,6 +202,7 @@
       .story-image img{height:480px}
       section{padding:78px 0}
     }
+
     @media(max-width:560px){
       .container{width:min(90vw,1180px)}
       .brand{font-size:1.7rem}
@@ -141,130 +222,453 @@
     gtag('config', 'G-6L6LEGGKV8');
   </script>
 </head>
+
 <body>
+
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="index.html" aria-label="GeoNest Studio home">Geo<span>Nest</span></a>
+
+      <a class="brand" href="index.html" aria-label="GeoNest Studio home">
+        Geo<span>Nest</span>
+      </a>
+
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="about.html">About</a>
+        <a href="about.html" aria-current="page">About</a>
         <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="index.html#process">Process</a>
         <a class="btn btn-gold" href="index.html#contact">Free Consultation</a>
       </nav>
+
     </div>
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container">
+
         <span class="eyebrow">About GeoNest Studio</span>
-        <h1 class="title">About GeoNest Studio.<br>Design & Execution.</h1>
-        <p>GeoNest Studio brings interior design, civil contracting, renovation and turnkey execution under one accountable team for homes, workplaces, villas and selected commercial spaces.</p>
+
+        <h1 class="title">
+          About GeoNest Studio.<br>
+          Interior Design & Execution.
+        </h1>
+
+        <p>
+          GeoNest Studio is an interior design, civil contracting, renovation and turnkey solutions studio serving homeowners and selected commercial clients across Mumbai, Navi Mumbai, Thane and nearby regions.
+        </p>
+
       </div>
     </section>
 
+
+    <!-- OUR STORY -->
     <section>
       <div class="container story">
+
         <div class="story-image">
-          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85" alt="Premium modern interior representing GeoNest Studio's design approach">
+          <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+            alt="Modern residential interior representing GeoNest Studio's interior design approach"
+            loading="lazy"
+          >
         </div>
+
         <div class="story-copy">
+
           <span class="eyebrow">Our approach</span>
-          <h2 class="title">One vision.<br>One accountable team.</h2>
-          <p class="lead">We believe a strong project begins with clarity. Before work starts, we align the space plan, intended finish, practical requirements, budget priorities and execution sequence.</p>
-          <p class="lead">Our role is to turn that direction into a buildable plan and coordinate the journey from measurement and design through materials, site work, quality checks and handover.</p>
-          <p class="lead">GeoNest Studio is a new independent studio. Our website portfolio currently presents design concepts that demonstrate our visual direction; completed GeoNest client projects will be added as they are delivered.</p>
+
+          <h2 class="title">
+            One vision.<br>
+            One accountable team.
+          </h2>
+
+          <p class="lead">
+            We believe a successful interior or renovation project starts with clarity. Before execution begins, we work to understand the space, measurements, layout requirements, intended finishes, budget priorities and practical needs of the client.
+          </p>
+
+          <p class="lead">
+            GeoNest Studio brings <a href="interior-design.html">interior design</a>, <a href="civil-contracting.html">civil contracting</a>, renovation and <a href="turnkey-solutions.html">turnkey execution</a> together so that design decisions and site requirements can be coordinated from the beginning.
+          </p>
+
+          <p class="lead">
+            Our approach covers the journey from site study and design development through material coordination, execution planning, site work, quality checks and final handover.
+          </p>
+
+          <p class="lead">
+            GeoNest Studio is a new independent studio. Our website portfolio currently presents design concepts that demonstrate our visual direction and design language; completed GeoNest client projects will be added as they are delivered.
+          </p>
+
         </div>
+
       </div>
     </section>
 
+
+    <!-- PRINCIPLES -->
     <section class="principles">
+
       <div class="container">
+
         <div class="section-head">
+
           <div>
             <span class="eyebrow">What guides us</span>
-            <h2 class="title">Built around clarity, detail and responsibility.</h2>
+
+            <h2 class="title">
+              Built around clarity, detail and responsibility.
+            </h2>
           </div>
-          <p class="lead">Every decision should support the user, the site and the final quality of the space—not just how it looks in a presentation.</p>
+
+          <p class="lead">
+            Every decision should support the user, the site and the final quality of the space—not just how it looks in a presentation.
+          </p>
+
         </div>
+
 
         <div class="principle-grid">
-          <article class="principle"><span>01</span><h3>Practical design</h3><p>Layouts and finishes are considered for daily use, maintenance, site constraints and budget.</p></article>
-          <article class="principle"><span>02</span><h3>Clear scope</h3><p>Responsibilities, inclusions and expected outcomes are discussed before execution begins.</p></article>
-          <article class="principle"><span>03</span><h3>Coordinated delivery</h3><p>Design, vendors and site activities are organised through one integrated project direction.</p></article>
-          <article class="principle"><span>04</span><h3>Quality focus</h3><p>Work is reviewed stage by stage to reduce rework and protect the intended finish.</p></article>
+
+          <article class="principle">
+            <span>01</span>
+            <h3>Practical design</h3>
+            <p>
+              Layouts, materials and finishes are considered for everyday use, maintenance, site conditions and budget priorities.
+            </p>
+          </article>
+
+          <article class="principle">
+            <span>02</span>
+            <h3>Clear scope</h3>
+            <p>
+              Project responsibilities, inclusions, design requirements and expected outcomes are discussed before execution begins.
+            </p>
+          </article>
+
+          <article class="principle">
+            <span>03</span>
+            <h3>Coordinated delivery</h3>
+            <p>
+              Design, vendors, materials and site activities are organised through one integrated project direction wherever the scope requires it.
+            </p>
+          </article>
+
+          <article class="principle">
+            <span>04</span>
+            <h3>Quality focus</h3>
+            <p>
+              Work is reviewed stage by stage to identify issues early, reduce unnecessary rework and protect the intended finish.
+            </p>
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
+
+    <!-- HOW WE WORK -->
     <section class="approach">
+
       <div class="container approach-grid">
+
         <div>
+
           <span class="eyebrow">How we work</span>
-          <h2 class="title">A structured path from idea to handover.</h2>
+
+          <h2 class="title">
+            A structured path from idea to handover.
+          </h2>
+
         </div>
+
+
         <div>
-          <div class="step"><strong>01</strong><div><h3>Discovery & Site Study</h3><p>Understanding the requirement, site conditions, measurements, priorities and desired outcome.</p></div></div>
-          <div class="step"><strong>02</strong><div><h3>Concept & Scope</h3><p>Developing the layout direction, material intent, service scope and preliminary estimate.</p></div></div>
-          <div class="step"><strong>03</strong><div><h3>Design Development</h3><p>Preparing execution details, selections and coordination information before mobilisation.</p></div></div>
-          <div class="step"><strong>04</strong><div><h3>Execution & Review</h3><p>Managing planned site stages with regular coordination and quality observations.</p></div></div>
-          <div class="step"><strong>05</strong><div><h3>Final Check & Handover</h3><p>Completing finishing checks, snag resolution and a structured project handover.</p></div></div>
+
+          <div class="step">
+            <strong>01</strong>
+
+            <div>
+              <h3>Discovery & Site Study</h3>
+              <p>
+                Understanding the requirement, property, existing site conditions, measurements, priorities and desired outcome.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="step">
+            <strong>02</strong>
+
+            <div>
+              <h3>Concept & Scope</h3>
+              <p>
+                Developing the layout direction, design intent, material approach, service scope and preliminary project estimate.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="step">
+            <strong>03</strong>
+
+            <div>
+              <h3>Design Development</h3>
+              <p>
+                Preparing drawings, execution details, selections and coordination information required before site mobilisation.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="step">
+            <strong>04</strong>
+
+            <div>
+              <h3>Execution & Review</h3>
+              <p>
+                Coordinating planned site stages, vendors and execution activities with regular project reviews and quality observations.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="step">
+            <strong>05</strong>
+
+            <div>
+              <h3>Final Check & Handover</h3>
+              <p>
+                Completing finishing checks, addressing identified snags and moving towards a structured project handover.
+              </p>
+            </div>
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="areas">
+
+    <!-- SERVICES CONTEXT -->
+    <section>
+
       <div class="container">
-        <span class="eyebrow">Service areas</span>
-        <h2 class="title">Serving Mumbai and nearby regions.</h2>
-        <div class="area-list">
-          <span>Mumbai</span><span>Navi Mumbai</span><span>Thane</span><span>Panvel</span><span>Kalyan</span><span>Mira-Bhayandar</span>
+
+        <div class="section-head">
+
+          <div>
+            <span class="eyebrow">What we do</span>
+
+            <h2 class="title">
+              Design, construction and renovation under one direction.
+            </h2>
+          </div>
+
+          <p class="lead">
+            Our services are structured around the different requirements that can arise during a residential or selected commercial project.
+          </p>
+
         </div>
-        <a class="btn btn-dark" href="index.html#contact">Discuss your project</a>
+
+
+        <div class="principle-grid">
+
+          <article class="principle">
+            <span>01</span>
+            <h3>Interior Design</h3>
+            <p>
+              Space planning, design development, material direction and interior detailing for homes and selected commercial spaces.
+              <br><br>
+              <a href="interior-design.html">Explore Interior Design →</a>
+            </p>
+          </article>
+
+
+          <article class="principle">
+            <span>02</span>
+            <h3>Civil Contracting</h3>
+            <p>
+              Civil and site-related execution support for renovation, alteration and construction requirements.
+              <br><br>
+              <a href="civil-contracting.html">Explore Civil Contracting →</a>
+            </p>
+          </article>
+
+
+          <article class="principle">
+            <span>03</span>
+            <h3>Turnkey Solutions</h3>
+            <p>
+              An integrated approach where design coordination, vendors, materials and execution are managed as one project journey.
+              <br><br>
+              <a href="turnkey-solutions.html">Explore Turnkey Solutions →</a>
+            </p>
+          </article>
+
+
+          <article class="principle">
+            <span>04</span>
+            <h3>Home Renovation</h3>
+            <p>
+              Renovation planning and execution for homeowners looking to upgrade existing residential spaces.
+              <br><br>
+              <a href="home-renovation-mumbai.html">Explore Home Renovation →</a>
+            </p>
+          </article>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="cta">
-      <div class="cta-box">
-        <div>
-          <span class="eyebrow">Start a conversation</span>
-          <h2 class="title">Planning an interior, renovation or turnkey project?</h2>
-          <p>Share your location, approximate area, timeline and budget range. We will help you define the practical next step.</p>
-          <a class="btn btn-gold" href="https://wa.me/918850605925?text=Hello%20GeoNest%20Studio%2C%20I%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener">Message on WhatsApp</a>
+
+    <!-- SERVICE AREAS -->
+    <section class="areas">
+
+      <div class="container">
+
+        <span class="eyebrow">Service areas</span>
+
+        <h2 class="title">
+          Interior design and project execution across Mumbai and nearby regions.
+        </h2>
+
+        <div class="area-list">
+          <span>Mumbai</span>
+          <span>Navi Mumbai</span>
+          <span>Thane</span>
+          <span>Panvel</span>
+          <span>Kalyan</span>
+          <span>Mira-Bhayandar</span>
         </div>
+
+        <a class="btn btn-dark" href="index.html#contact">
+          Discuss your project
+        </a>
+
       </div>
+
     </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+      <div class="cta-box">
+
+        <div>
+
+          <span class="eyebrow">Start a conversation</span>
+
+          <h2 class="title">
+            Planning an interior, renovation or turnkey project?
+          </h2>
+
+          <p>
+            Share your location, approximate area, timeline and budget range. We will help you understand the practical next step for your project.
+          </p>
+
+          <a
+            class="btn btn-gold"
+            href="https://wa.me/918850605925?text=Hello%20GeoNest%20Studio%2C%20I%20want%20to%20discuss%20a%20project."
+            target="_blank"
+            rel="noopener"
+            aria-label="Message GeoNest Studio on WhatsApp"
+          >
+            Message on WhatsApp
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer>
+
     <div class="container">
+
       <div class="footer-grid">
+
         <div>
-          <a class="brand" href="index.html">Geo<span>Nest</span></a>
-          <p>Interior design, civil contracting, renovation and turnkey execution across Mumbai and nearby regions.</p>
+
+          <a class="brand" href="index.html" aria-label="GeoNest Studio home">
+            Geo<span>Nest</span>
+          </a>
+
+          <p>
+            Interior design, civil contracting, home renovation and turnkey project execution across Mumbai, Navi Mumbai, Thane and nearby regions.
+          </p>
+
         </div>
+
+
         <div>
+
           <h4>Navigate</h4>
+
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
+          <a href="interior-design.html">Interior Design</a>
+          <a href="turnkey-solutions.html">Turnkey Solutions</a>
           <a href="projects.html">Concept Portfolio</a>
+
         </div>
+
+
         <div>
+
           <h4>Contact</h4>
-          <a href="tel:+918850605925">+91 88506 05925</a>
-          <a href="mailto:hello.geonest@gmail.com">hello.geonest@gmail.com</a>
-          <a href="privacy-policy.html">Privacy Policy</a>
+
+          <a href="tel:+918850605925">
+            +91 88506 05925
+          </a>
+
+          <a href="mailto:hello.geonest@gmail.com">
+            hello.geonest@gmail.com
+          </a>
+
+          <a href="privacy-policy.html">
+            Privacy Policy
+          </a>
+
         </div>
+
       </div>
+
+
       <div class="footer-bottom">
-        <span>© <span id="year"></span> GeoNest Studio. All rights reserved.</span>
-        <span>Interior Design · Civil · Turnkey</span>
+
+        <span>
+          © <span id="year"></span> GeoNest Studio. All rights reserved.
+        </span>
+
+        <span>
+          Interior Design · Civil · Turnkey
+        </span>
+
       </div>
+
     </div>
+
   </footer>
 
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
+```
