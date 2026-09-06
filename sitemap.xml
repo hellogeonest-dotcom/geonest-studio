@@ -1,14 +1,12 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
 
   <url>
     <loc>https://geoneststudio.com/</loc>
     <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/about.html</loc>
-    <priority>0.8</priority>
   </url>
 
   <url>
@@ -30,6 +28,70 @@
     <loc>https://geoneststudio.com/service-turnkey-solutions.html</loc>
     <priority>0.9</priority>
   </url>
+
+  <url>
+    <loc>https://geoneststudio.com/process.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- Interior Design Cost & Service Guides -->
+
+  <url>
+    <loc>https://geoneststudio.com/interior-design-cost-mumbai.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/2bhk-interior-design-cost-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/3bhk-interior-design-cost-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/interior-designers-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/interior-designers-navi-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/interior-designers-thane.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- Civil Contracting & Renovation -->
+
+  <url>
+    <loc>https://geoneststudio.com/civil-contractors-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://geoneststudio.com/home-renovation-mumbai.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- Portfolio -->
 
   <url>
     <loc>https://geoneststudio.com/projects.html</loc>
@@ -56,15 +118,8 @@
     <priority>0.7</priority>
   </url>
 
-  <url>
-    <loc>https://geoneststudio.com/process.html</loc>
-    <priority>0.8</priority>
-  </url>
 
-  <url>
-    <loc>https://geoneststudio.com/contact.html</loc>
-    <priority>0.8</priority>
-  </url>
+  <!-- Legal Pages -->
 
   <url>
     <loc>https://geoneststudio.com/privacy-policy.html</loc>
@@ -76,60 +131,5 @@
     <priority>0.3</priority>
   </url>
 
-  <url>
-    <loc>https://geoneststudio.com/interior-designers-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/interior-designers-navi-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/interior-designers-thane.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/2bhk-interior-design-cost-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/3bhk-interior-design-cost-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/interior-design-cost-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/civil-contractors-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://geoneststudio.com/home-renovation-mumbai.html</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
 </urlset>
+```
